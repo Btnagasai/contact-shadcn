@@ -52,7 +52,7 @@ function App() {
                    <Label htmlFor="checkBox">I consent to being contacted by the team <span className="text-[#0c7d69]">*</span></Label>
                </div>
                 {/* submit button */}
-                <button type="submit" className="mt-6 w-full p-5 bg-[#0c7d69] text-white text-[15px] rounded-lg">Submit</button>
+                <button type="submit" className="mt-6 w-full p-2 bg-[#0c7d69] text-white text-[15px] rounded-lg">Submit</button>
 
   </div>
   
