@@ -13,7 +13,7 @@ function App() {
    
  
  <div className="flex bg-green-100 m-auto h-screen w-full  font-karla ">
-    <div className="grid w-full max-w-lg m-auto bg-white  p-5  gap-1.5 text-left">
+    <div className="grid w-full max-w-xl m-auto bg-white  p-5  gap-1.5 text-left">
       <h1 className="font-bold text-[30px]">Contact Us</h1>
    <div className="grid grid-cols-2 gap-5  text-left">
     <div>
