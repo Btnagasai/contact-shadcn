@@ -46,7 +46,7 @@ function App() {
                 <Label htmlFor="message " className="">Message <span className="text-[#0c7d69]">*</span></Label>
                     <Textarea typeof="textarea" id="message" placeholder="message"  required/>
                     </div>
-                    <div className="flex items-center mt-6 ">
+                    <div className="flex items-center justify-center mt-6 ">
                    
                    <Input type="checkbox" className="input-checkbox w-[16px] h-[16px] mr-5 font-medium" required/>
                    <Label htmlFor="checkBox">I consent to being contacted by the team <span className="text-[#0c7d69]">*</span></Label>
