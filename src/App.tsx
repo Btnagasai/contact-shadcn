@@ -13,9 +13,9 @@ function App() {
    
  
  <div className="flex bg-green-100 m-auto h-screen w-full  font-karla ">
-    <div className="grid w-full max-w-sm m-auto bg-white  p-5  gap-1.5 text-left">
+    <div className="grid w-full max-w-lg m-auto bg-white  p-5  gap-1.5 text-left">
       <h1 className="font-bold text-[30px]">Contact Us</h1>
-   <div className="flex flex-row gap-4  text-left">
+   <div className="grid grid-cols-2 gap-5  text-left">
     <div>
      <Label htmlFor="First name">First Name <span className="text-[#0c7d69]">*</span></Label>
     <Input type="text" id="name" name='name' placeholder="First Name" required /> 
@@ -25,8 +25,10 @@ function App() {
     <Input type="text" id="name" name='name' placeholder="Last Name" required/> 
     </div>
     </div>
+    <div>
     <Label htmlFor="email">Email <span className="text-[#0c7d69]">*</span></Label>
     <Input type="email" id="email" placeholder="Email" required />
+    </div>
     <div className=" mt-3 text-left">Query Type <span className="text-[#0c7d69]">*</span></div>
          <div className=" flex flex-col sm:flex-row gap-4 "> 
          {/* General */}
