@@ -13,9 +13,9 @@ function App() {
    
  
  <div className="flex bg-green-100 m-auto h-screen w-full  font-karla ">
-    <div className="grid w-full max-w-md m-auto bg-white  p-5  gap-1.5 text-left">
-      <h1 className="font-bold">Contact Us</h1>
-   <div class="flex flex-row gap-4  text-left">
+    <div className="grid w-full max-w-sm m-auto bg-white  p-5  gap-1.5 text-left">
+      <h1 className="font-bold text-[30px]">Contact Us</h1>
+   <div className="flex flex-row gap-4  text-left">
     <div>
      <Label htmlFor="First name">First Name <span className="text-[#0c7d69]">*</span></Label>
     <Input type="text" id="name" name='name' placeholder="First Name" required /> 
@@ -30,19 +30,19 @@ function App() {
     <div className=" mt-3 text-left">Query Type <span className="text-[#0c7d69]">*</span></div>
          <div className=" flex flex-col sm:flex-row gap-4 "> 
          {/* General */}
-             <div class="flex border border-gray-300 rounded-lg w-full p-3 items-center">
+             <div className="flex border border-gray-300 rounded-lg w-full p-3 items-center">
                             <Input type="radio" name="queryType" value="General Enquiry" className=" radio-input mr-2 w-4 h-4"/>
                             <Label className="flex item-center">General Enquiry </Label>
                     </div>
                           {/*Support  */}
-                        <div class="flex  border border-gray-300 rounded-lg w-full p-3 items-center">
+                        <div className="flex  border border-gray-300 rounded-lg w-full p-3 items-center">
                         <Input type="radio" id="support request" name="queryType" value="General Enquiry" className=" radio-input mr-2 w-4 h-4" />
                         <Label htmlFor="Request">Support Request</Label>
                     </div>
                 </div>
                 <div>
                 <Label htmlFor="message " className="">Message <span className="text-[#0c7d69]">*</span></Label>
-                    <Textarea type="textarea" id="message" placeholder="message" row="4" required/>
+                    <Textarea typeof="textarea" id="message" placeholder="message"  required/>
                     </div>
                     <div className="flex items-center mt-6 ">
                    
